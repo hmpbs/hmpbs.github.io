@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Helvetica", Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(234,225,218);
+}
+
+h1{
+    font-family: 'IBM Plex Serif', serif;
+    padding-top: 3em;
+    text-align: center;
+}
+
+.hvr-grow {
+    font-family: 'IBM Plex Serif', serif;
+    display: block;
+    justify-content:right;
+    margin-top: 110px;
+    font-size: 40px;
+    color: rgb(199, 89, 89);
+    letter-spacing: 3px;
+    margin-left: 15%;
+    font-style: italic;
+    font-weight:lighter;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.class2 {
+    font-family: 'IBM Plex Serif', serif;
+    display: block;
+    justify-content:right;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(199, 89, 89);
+    letter-spacing: 3px;
+    margin-left: 15%;
+    font-style: italic;
+    font-weight:lighter;
+    text-decoration: none;
+    font-weight: bold;
+}
+.class3 {
+    font-weight: lighter;
+    font-family: 'IBM Plex Serif', serif;
+    display:block;
+    justify-content:right;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(199, 89, 89);
+    letter-spacing: 3px;
+    margin-left: 15%;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}.class4 {
+    font-weight: lighter;
+    font-family: 'IBM Plex Serif', serif;
+    display:block;
+    justify-content:right;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(199, 89, 89);
+    letter-spacing: 3px;
+    margin-left: 15%;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+.class5 {
+    font-weight: lighter;
+    font-family: 'IBM Plex Serif', serif;
+    display:block;
+    justify-content:right;
+    margin-top: 50px;
+    font-size: 40px;
+    color: rgb(199, 89, 89);
+    letter-spacing: 3px;
+    margin-left: 15%;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+  .hvr-grow span{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+
+  .class2 , .class3 , .class4 , .class5 {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .class2:hover, .class2:focus, .class2:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+  .class3:hover, .class3:focus, .class3:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+  .class4:hover, .class4:focus, .class4:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+  .class5:hover, .class5:focus, .class5:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+  
+
+.ig {
+    margin-left: 38%;
+    margin-bottom: -0.6em;
+}
+
+.port {
+    position: relative;
+    margin-left: 60%;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 20px;
+    color: black;
+    letter-spacing: 3px;
+    align-items: center;
+    font-style: italic;
+    text-decoration: none;
+    display:block;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.7s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.port:hover, .port:focus, .port:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    color: black;
+  }
+
+
+
+
+.nav {
+    position: absolute;
+    width:60%;
+    height:250px;
+}
+.hvr-grow span {
+    position: absolute;
+    top: 0;
+    left: 650px;
+    opacity: 0;
+    transition: 1s;
+}
+.hvr-grow:hover span {
+    
+    visibility: visible;
+    top: 0;
+    left: 250%;
+    z-index: 50;
+    opacity: 1;
+    
+}
+.class2 span {
+    position: absolute;
+    left: 650px;
+    opacity: 0;
+    transition: 1s;
+    top: -240%;
+}
+.class2:hover span {
+    position: absolute;
+    visibility: visible;
+    top: -240%;
+    left: 530px;
+    z-index: 50;
+    opacity: 1;
+}
+
+
+.class3 span {
+    position: absolute;
+    top: -480%;
+    left: 650px;
+    opacity: 0;
+    transition: 1s;
+}
+.class3:hover span {
+    position: absolute;
+    visibility: visible;
+    top: -480%;
+    left: 530px;
+    z-index: 50;
+    opacity: 1;
+}.class4 span {
+    position: absolute;
+    top: -720%;
+    left: 650px;
+    opacity: 0;
+    transition: 1s;
+}
+.class4:hover span {
+    position: absolute;
+    visibility: visible;
+    top: -720%;
+    left: 530px;
+    z-index: 50;
+    opacity: 1;
+}.class5 span {
+    position: absolute;
+    top: -970%;
+    left: 650px;
+    opacity: 0;
+    transition: 1s;
+}
+.class5:hover span {
+    position: absolute;
+    visibility: visible;
+    top: -970%;
+    left: 530px;
+    z-index: 50;
+    opacity: 1;
+}
+
+
+
+
